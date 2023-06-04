@@ -1,0 +1,402 @@
+<img src="https://www.hgunified.com/wp-content/uploads/2023/04/46386244-58ac-a112-43f9-2faaa25aeacd.png"
+<div></div>
+<div></div>
+
+<div id="Character Details" class="tabcontent">
+  <h3>Character Details</h3>
+  <span>Character Name:</span>
+<input type="text" name="attr_character_name"
+/>
+
+Background
+<input type="text" name ="attr_Background"> 
+Archetype
+<input type="text" name ="attr_Archetype">
+Characteristic
+<input type="text" name ="attr_Characteristic">
+Nationality
+<input type="text" name ="attr_Nationality">
+Languages
+<input type="text" name ="attr_languages">
+XP
+<input type="number" name ="attr_XP">
+
+  <h2>Attributes</h2>
+ </table>
+
+<table>
+<table style="width:50%">
+<style>
+}</style>
+    <tr>
+    <th>Attribute<th>
+    <th>Rating</th>
+    <th>Bonus Damage</th>
+    </tr>
+    <tr> 
+        <td>Agility<td>
+        <td><input type="number" name ="attr_Agility 1"</td>
+        <td><input type="number" name ="attr_Agility 2"</td>
+        <td>Courage</td>
+        <td><input type="number" name ="attr_courage"</td>
+    <tr>
+        <td>Brawn<td>
+        <td><input type="number" name ="attr_brawn1"</td>
+        <td><input type="number" name ="attr_brawn2"</td>
+        <td>Armour</td>
+        <td><input type="number" name ="attr_armour"</td>
+    <tr> 
+        <td>Coordination<td>
+        <td><input type="number" name ="attr_coordination1"</td>
+        <td><input type="number" name ="attr_coordination3"</td>
+        <td>Max Stress</td>
+        <td><input type="number" name ="attr_maxstress"</td>
+    <tr> 
+        <td>Insight<td>
+        <td><input type="number" name ="attr_insight1"</td>
+        <td><input type="number" name ="attr_insight2"</td>
+        <td>Truths</td>
+        <td><input type="text" name ="attr_Truths"</td>
+    <tr>
+        <td>Reason<td>
+        <td><input type="number" name ="attr_reason1" </td>
+        <td><input type="number" name ="attr_reason2"</td>
+        <td>Scars</td>
+        <td><input type="text" name ="attr_Scars"</td>
+    <tr>
+        <td>Will<td>
+        <td><input type="number" name ="attr_will1"</td>
+        <td><input type="number" name ="attr_will2"/td>
+        <td>Injuries</td>
+        <td><input type="text" name ="attr_Injuries"</td>
+     </tr>
+</table
+<div></div>
+Combat Resilience
+<input type="number"name ="attr_CombatResilience">
+Courage Resilience
+<input type="number" name ="attr_CourageResilience">
+Current Stress
+<input type="number" name ="attr_stressnumber">
+<div></div>
+
+<div id="Skills & Talents" class="tabcontent">
+  <h3>Skills & Talents</h3>
+
+ <h3>Skills</h3> 
+
+<table>
+<table style="width:50%">
+<style>
+}</style>
+    <tr>
+    <th>Skill</th>
+    <th>Skill Points</th>
+    <th>Attribute</th>
+    <th>Focus</th>
+    <th>Total</th>
+    </tr>
+    <tr>
+        <td>Academia</td> 
+        <td><input type="text" name ="attr_academia"</td>
+        <td><input type="text" name ="attr_academiapoints"</td>
+        <td><input type="text" name ="attr_focus"</td> 
+        <td><input type="number" name ="attr_academiatotal"</td>
+    <tr>
+        <td>Athletics</td> 
+        <td><input type="text" name ="attr_athletics"</td>
+        <td><input type="text"name ="attr_athleticspoints" </td>
+        <td><input type="text" name ="attr_athleticsfocus"</td>
+        <td><input type="number"name ="attr_total"</td>
+    <tr>
+        <td>Engineering</td> 
+        <td><input type="text" name ="attr_engineering"</td>
+        <td><input type="text" name ="attr_engineeringpoints"</td>
+        <td><input type="text" name ="attr_engineeringfocus"</td>
+        <td><input type="number"name ="attr_engineeringtotal"</td>
+    <tr>
+        <td>Fighting</td> 
+        <td><input type="text" name ="attr_fighting"</td>
+        <td><input type="text" name ="attr_fightingskill"</td>
+        <td><input type="text" name ="attr_fightingfocus"</td>
+        <td><input type="number"name ="attr_fightingtotal"</td>
+    <tr>
+        <td>Medicine</td> 
+        <td><input type="text"name ="attr_medicine"</td>
+        <td><input type="text"name ="attr_medicineskill"</td>
+        <td><input type="text"name ="attr_medicinefocus"</td>
+        <td><input type="number"name ="attr_medicinetotal"</td>
+    <tr>
+        <td>Observation</td> 
+        <td><input type="text" name ="attr_observation"</td>
+        <td><input type="text" name ="attr_observationskill"</td>
+        <td><input type="text"name ="attr_obserationfocus" </td>
+        <td><input type="number" name ="attr_observationtotal"</td>
+    <tr>
+        <td>Persuasion</td> 
+        <td><input type="text" name ="attr_persuasion"</td>
+        <td><input type="text" name ="attr_persuasionskill"</td>
+        <td><input type="text" name ="attr_persuationfocyu"</td>
+        <td><input type="number"name ="attr_persuasiontotal"</td>
+    <tr>
+        <td>Resilience</td> 
+        <td><input type="text" name ="attr_resilience"</td>
+        <td><input type="text" name ="attr_resilienceskill"</td>
+        <td><input type="text"name ="attr_resiliencefocus" </td>
+        <td><input type="number" name ="attr_resiliencetotal"</td>
+    <tr>
+        <td>Stealth</td> 
+        <td><input type="text" name ="attr_stealth"</td>
+        <td><input type="text" name ="attr_stealthskill"</td>
+        <td><input type="text" name ="attr_stealthfocus"</td>
+        <td><input type="number" name ="attr_stealthtotal"</td>
+    <tr>
+        <td>Survival</td> 
+        <td><input type="text" name ="attr_survival"</td>
+        <td><input type="text" name ="attr_survivalskill"</td>
+        <td><input type="text"name ="attr_survivalfocus"</td>
+        <td><input type="number" name ="attr_survivaltotal"</td>
+    <tr>
+        <td>Tactics</td> 
+        <td><input type="text" name ="attr_tactics"</td>
+        <td><input type="text"name ="attr_tacticsskill"</td>
+        <td><input type="text"name ="attr_tacticsfocus"</td>
+        <td><input type="number" name ="attr_tacticstotal"</td>
+    <tr>
+        <td>vehicles</td> 
+        <td><input type="text" name ="attr_vehicles"</td>
+        <td><input type="text" name ="attr_vehiclesskill"</td>
+        <td><input type="text" name ="attr_vehiclesfocus"</td>
+        <td><input type="number" name ="attr_vehiclestotal"</td>
+     </tr>
+</table>
+  
+ <h3>Talents</h3>
+ 
+ <table>
+<table style="width:50%">
+<style>
+}</style>
+    <tr>
+    <th>Talent</th>
+    <th>Ability</th>
+    <th>Talent</th>
+    <th>Ability</th>
+    </tr>
+    <tr> 
+        <td><input type="text" name ="attr_talent1"</td>
+        <td><input type="text" name ="attr_ability1"</td>
+        <td><input type="text" name ="attr_Talent2"</td>
+        <td><input type="text"name ="attr_Ability2" </td>
+    <tr>
+        <td><input type="text" name ="attr_talent3"</td>
+        <td><input type="text"name ="attr_ability3" </td>
+        <td><input type="text" name ="attr_talent4"</td>
+        <td><input type="text" name ="attr_ability4"</td>
+    <tr> 
+        <td><input type="text" name ="attr_talent5"</td>
+        <td><input type="text" name ="attr_ability5"</td>
+        <td><input type="text" name ="attr_talent6"</td>
+        <td><input type="text" name ="attr_ability6"</td>
+    <tr> 
+        <td><input type="text" name ="attr_talent7"</td>
+        <td><input type="text" name ="attr_ability7"</td>
+        <td><input type="text" name ="attr_talent8"</td>
+        <td><input type="text" name ="attr_ability8"</td>
+    <tr>
+        <td><input type="text" name ="attr_talent9"</td>
+        <td><input type="text" name ="attr_ability9"</td>
+        <td><input type="text"name ="attr_talent10" </td>
+        <td><input type="text" name ="attr_ability10"</td>
+     </tr>
+</table>
+</div>
+
+<div id="Equipment" class="tabcontent">
+  <h3>Equipment</h3>
+
+ <table>
+<table style="width:50%">
+<style>
+}</style>
+    <tr>
+    <th>Item</th>
+    <th>Ability</th>
+    </tr>
+    <tr> 
+        <td><input type="text" name ="attr_item1"</td>
+        <td><input type="text" name ="attr_item1a"</td>
+    <tr>
+        <td><input type="text" name ="attr_item2"</td>
+        <td><input type="text" name ="attr_item2a"</td>
+    <tr> 
+        <td><input type="text" name ="attr_item3"</td>
+        <td><input type="text" name ="attr_item3a" </td>
+    <tr> 
+        <td><input type="text"name ="attr_item4" </td>
+        <td><input type="text"name ="attr_item4a"</td>
+    <tr>
+        <td><input type="text"name ="attr_item5"</td>
+        <td><input type="text"name ="attr_item5a"</td>
+     </tr>
+</table>
+
+<h3>Weaponry</h3>
+
+<table>
+<table style="width:50%">
+<style>
+}</style>
+    <tr>
+    <th>Weapon Name</th>
+    <th>Focus</th>
+    <th>Range</th>
+    <th>Damage</th>
+    <th>Salvo</th> 
+    <th>Size</th>
+    </tr>
+    <tr> 
+        <td><input type="text" name ="attr_weapon1"</td>
+        <td><input type="text" name ="attr_weapon1a"</td>
+        <td><input type="text" name ="attr_weapon1b"</td>
+        <td><input type="text" name ="attr_weapon1c"</td>
+        <td><input type="text" name ="attr_weapon1d"</td>
+        <td><input type="text" name ="attr_weapon1e"</td>
+    <tr>
+        <td><input type="text" name ="attr_weapon2"</td>
+        <td><input type="text" name ="attr_weapon2a"</td>
+        <td><input type="text" name ="attr_weapon2b"</td>
+        <td><input type="text" name ="attr_weapon2c"</td>
+        <td><input type="text" name ="attr_weapon2d"</td>
+        <td><input type="text" name ="attr_weapon2e"</td>
+    <tr> 
+        <td><input type="text" name ="attr_weapon3"</td>
+        <td><input type="text" name ="attr_weapon3a"</td>
+        <td><input type="text" name ="attr_weapon3b"</td>
+        <td><input type="text" name ="attr_weapon3c"</td>
+        <td><input type="text" name ="attr_weapon3d"</td>
+        <td><input type="text" name ="attr_weapon3e"</td>
+    <tr> 
+        <td><input type="text" name ="attr_weapon4"</td>
+        <td><input type="text" name ="attr_weapon4a"</td>
+        <td><input type="text" name ="attr_weapon4b"</td>
+        <td><input type="text" name ="attr_weapon4c"</td>
+        <td><input type="text" name ="attr_weapon4d"</td>
+        <td><input type="text" name ="attr_weapon4e"</td>
+    <tr>
+        <td><input type="text" name ="attr_weapon5"</td>
+        <td><input type="text" name ="attr_weapon5a"</td>
+        <td><input type="text" name ="attr_weapon5b"</td>
+        <td><input type="text" name ="attr_weapon5c"</td>
+        <td><input type="text" name ="attr_weapon5d"</td>
+        <td><input type="text" name ="attr_weapon5e"</td>
+     </tr>
+</table
+
+<table>
+<table style="width:50%">
+<style>
+}</style>
+    <tr>
+    <th>Weapon</th>
+    <th>Qualities & Notes</th>
+    </tr>
+    <tr> 
+        <td><input type="text" name ="attr_weaponq1"</td>
+        <td><input type="text" name ="attr_weaponq1a"</td>
+    <tr>
+        <td><input type="text" name ="attr_weaponq2"</td>
+        <td><input type="text" name ="attr_weaponq2a"</td>
+    <tr> 
+        <td><input type="text" name ="attr_weaponq3"</td>
+        <td><input type="text" name ="attr_weaponq3a"</td> 
+    <tr> 
+        <td><input type="text" name ="attr_weaponq4"</td>
+        <td><input type="text" name ="attr_weaponq4a"</td>
+    <tr>
+        <td><input type="text" name ="attr_weaponq5"</td>
+        <td><input type="text" name ="attr_weaponq5a"</td>
+     </tr>
+</table>
+
+<h3>Spells & Powers</h3>
+
+Tradition:<input type="text" name ="attr_tradition"> Power <input type="number"name ="attr_power">
+
+<table>
+<table style="width:50%">
+<style>
+}</style>
+    <tr>
+    <th>Name</th>
+    <th>Skill</th>
+    <th>Difficulty</th>
+    <th>Cost</th>
+    <th>Duration</th>
+    <th>Momentum</th>
+    </tr>
+    <tr> 
+        <td><input type="text" name ="attr_spell1"</td>
+        <td><input type="text" name ="attr_spell1a"</td>
+        <td><input type="text" name ="attr_spell1b"</td>
+        <td><input type="text" name ="attr_spell1c"</td>
+        <td><input type="text" name ="attr_spell1d"</td>
+        <td><input type="text" name ="attr_Spell1e"</td>
+    <tr>
+        <td><input type="text" name ="attr_spell2"</td>
+        <td><input type="text" name ="attr_spell2a"</td>
+        <td><input type="text" name ="attr_spell2b"</td>
+        <td><input type="text" name ="attr_spell2c"</td>
+        <td><input type="text" name ="attr_spell2d"</td>
+        <td><input type="text" name ="attr_Spell1e"</td>
+    <tr> 
+        <td><input type="text" name ="attr_spell3"</td>
+        <td><input type="text" name ="attr_spell3a"</td>
+        <td><input type="text" name ="attr_spell3b"</td>
+        <td><input type="text" name ="attr_spell3c"</td>
+        <td><input type="text" name ="attr_spell3d"</td>
+        <td><input type="text" name ="attr_spell3e"</td>
+    <tr> 
+        <td><input type="text" name ="attr_spell4"</td>
+        <td><input type="text" name ="attr_spell4a"</td>
+        <td><input type="text" name ="attr_spell4b"</td>
+        <td><input type="text" name ="attr_spell4c"</td>
+        <td><input type="text" name ="attr_spell4d"</td>
+        <td><input type="text" name ="attr_spell4e"</td>
+    <tr>
+        <td><input type="text" name ="attr_spell5"</td>
+        <td><input type="text" name ="attr_spell5a"</td>
+        <td><input type="text" name ="attr_spell5b"</td>
+        <td><input type="text" name ="attr_spell5c"</td>
+        <td><input type="text" name ="attr_spell5d"</td>
+        <td><input type="text" name ="attr_spell5e"</td>
+     </tr>
+</table>
+
+<table>
+<table style="width:50%">
+<style>
+}</style>
+    <tr>
+    <th>Spell</th>
+    <th>Effect</th>
+    </tr>
+    <tr> 
+        <td><input type="text" name="attr_spell1"</td>
+        <td><input type="text" name="attr_effect1"</td>
+    <tr>
+        <td><input type="text" name="attr_spell2"</td>
+        <td><input type="text" name="attr_effect2"</td>
+    <tr> 
+        <td><input type="text" name="attr_spell3"</td>
+        <td><input type="text" name="attr_effect3"</td>
+    <tr> 
+        <td><input type="text" name="attr_spell4"</td>
+        <td><input type="text" name="attr_effect4"</td>
+    <tr>
+        <td><input type="text" name="attr_spell5"</td>
+        <td><input type="text" name="attr_effect5"</td>
+     </tr>
+</table
+  
+</div>
